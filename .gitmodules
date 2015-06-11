@@ -19,3 +19,9 @@
 [submodule "vim/bundle/vim-nerdtree"]
 	path = vim/bundle/vim-nerdtree
 	url = http://github.com/scrooloose/nerdtree.git
+[submodule "vim/bundle/gitv"]
+	path = vim/bundle/gitv
+	url = http://github.com/gregsexton/gitv
+[submodule "vim/bundle/vim-colors-solarized"]
+	path = vim/bundle/vim-colors-solarized
+	url = http://github.com/altercation/vim-colors-solarized
