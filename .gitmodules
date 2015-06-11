@@ -28,3 +28,6 @@
 [submodule "vim/bundle/vim-distinguished"]
 	path = vim/bundle/vim-distinguished
 	url = http://github.com/Lokaltog/vim-distinguished
+[submodule "vim/bundle/vim-javascript-syntax"]
+	path = vim/bundle/vim-javascript-syntax
+	url = http://github.com/jelera/vim-javascript-syntax
