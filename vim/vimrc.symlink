@@ -1,0 +1,8 @@
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+colorscheme elflord
+set tabstop=2
+set expandtab
+set number
