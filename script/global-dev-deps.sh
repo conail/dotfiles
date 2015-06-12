@@ -10,7 +10,7 @@ sudo apt-get install netcat whois wget curl
 sudo apt-get install git svn
 
 # Editors
-sudo apt-get install vim emacs23-nox
+sudo apt-get install vim emacs23-nox dhex
 
 # Third-party Utilities
 sudo apt-get install heroku-toolbelt
