@@ -1,16 +1,10 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
-let g:solarized_termcolors=256 
 set t_Co=256
-let g:solarized_visibility = "high"
-let g:solarized_contrast = "high"
 set background=dark
-call togglebg#map("<F6>")
-match Error /\%80v.\+/
-syntax on
 colorscheme distinguished
-
+syntax on
 filetype plugin indent on
 set shiftwidth=2
 set tabstop=2
