@@ -1,14 +1,9 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
-let g:solarized_termcolors=256 
 set t_Co=256
-let g:solarized_visibility = "high"
-let g:solarized_contrast = "high"
-colorscheme solarized
-set background=dark
-call togglebg#map("<F6>")
-match Error /\%80v.\+/
+let g:rehash256 = 1
+colorscheme molokai
 syntax on
 
 filetype plugin indent on
