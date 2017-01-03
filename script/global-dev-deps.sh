@@ -19,7 +19,4 @@ apt-get install heroku-toolbelt
 apt-get install postgresql postgis redis mongodb
 
 # Runtimes / Interpreters
-apt-get install node python-dev python-pip
-
-# NPM
-npm install -g jslint foreman gulp jasmine
+apt-get install python-dev python-pip
