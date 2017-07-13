@@ -48,3 +48,4 @@ underl=%{$'\e[4m'%}
 underloff=%{$'\e[24m'%}
 PROMPT="${red}%n@${underl}%m${underloff}${cyan}%~${white}${normal} "
 setxkbmap -option "ctrl:nocaps"
+export CDPATH=.:$HOME/hdd/Code/src
