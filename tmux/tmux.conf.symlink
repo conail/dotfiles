@@ -65,7 +65,7 @@ set -g message-command-fg default
 set -g mode-bg red
 set -g mode-fg default
 
-set -g mode-mouse on
+set -g mouse on
 
-setw -g monitor-activity on
+set -g monitor-activity on
 set -g visual-activity on
