@@ -4,12 +4,12 @@ export XDG_CACHE_HOME="$HOME/.cache"
 export ZSH_CONFIG="$XDG_CONFIG_HOME/zsh"
 export ZSH_CACHE="$XDG_CACHE_HOME/zsh"
 mkdir -p $ZSH_CACHE
-export GOPATH=$HOME/code
+export GOPATH=$HOME/hdd/Code
 export PATH=/usr/local/sbin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/.local/sbin:$PATH
 export PATH=$HOME/.yarn/bin:$PATH
-export GREP_OPTIONS='--binary-files=without-match --ignore-case'
+export PATH=$HOME/.rbenv/bin:$PATH
 export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 export TERM=xterm-256color
@@ -49,3 +49,5 @@ underloff=%{$'\e[24m'%}
 PROMPT="${red}%n@${underl}%m${underloff}${cyan}%~${white}${normal} "
 setxkbmap -option "ctrl:nocaps"
 export CDPATH=.:$HOME/hdd/Code/src
+eval "$(rbenv init -)"
+alias fig=docker-compose
